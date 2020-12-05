@@ -77,7 +77,7 @@ function ready(err,network){
                                     forceProperties.forceX.enabled=false;
                                     forceProperties.forceY.enabled=false;
                                     forceProperties.link.enabled=false;
-                                    forceProperties.charge.strength=-1;
+                                    forceProperties.charge.strength=1;
                                     updateAll();
                                   }         
                                   })
