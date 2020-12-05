@@ -67,6 +67,23 @@ function ready(err,network){
 
         const controller = new ScrollMagic.Controller();
 
+        const scrollFromLinkForceToAllDots = new ScrollMagic.Scene({
+                                    triggerElement:".forceLink"
+        
+                                  })
+                                  .on("leave",(e)=>{
+                                  if(e.target.controller().info("scrollDirection") == "REVERSE")
+                                  {                                      
+                                    forceProperties.forceX.enabled=false;
+                                    forceProperties.forceY.enabled=false;
+                                    forceProperties.link.enabled=false;
+                                    forceProperties.charge.strength=-30;
+                                    updateAll();
+                                  }         
+                                  })
+                                  .addTo(controller);
+    
+
         const scrollFromForceXToLinkForce = new ScrollMagic.Scene({
                                     triggerElement:".forceLink"
         
@@ -292,11 +309,3 @@ function ready(err,network){
             updateForces();
             updateDisplay();
         }
-
-
-
-
-
-
-
-
