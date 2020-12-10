@@ -1,0 +1,234 @@
+html, body {
+  overflow-x: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    display:flex;
+}
+.chartContainer {
+  width:1100px;
+  z-index: 20;
+}
+/* the outer beige container */
+.chart {
+  display: flex;
+  width:100%;
+  height:75vh;
+  left:10%;
+}
+
+.chartTitle{
+  display: flex;
+  width:100%;
+  height:17vh;
+  left:10%;
+}
+
+.chartHeader{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 10px;
+  width: 20%;  
+    justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.footer {
+  width:100%;
+  height:40vh;
+  left:10%;
+}
+
+.footerNote {
+  display: flex;
+  width:100%;
+  left:10%;
+  margin-bottom: 10px;
+}
+
+
+/* the blue bar containers */
+.container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 10px;
+  width: 20%;
+  height: 750px;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+/* the pink boxes we will transition */
+.box1 {
+  width: 8px;
+  height: 8px;
+  margin: 2px;
+  z-index: 0;
+  background-color: #FF7373;
+  position: relative;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px; 
+  transform: scale(0);
+}
+
+/* the pink boxes we will transition */
+.box2 {
+  width: 8px;
+  height: 8px;
+  margin: 2px;
+  z-index: 0;
+  background-color: #FF7373;
+  position: relative;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px; 
+  transform: scale(0);
+}
+
+/* the pink boxes we will transition */
+.box3 {
+  width: 8px;
+  height: 8px;
+  margin: 2px;
+  z-index: 0;
+  background-color: #FF7373;
+  position: relative;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px; 
+  transform: scale(0);
+}
+
+/* the pink boxes we will transition */
+.box4 {
+  width: 8px;
+  height: 8px;
+  margin: 2px;
+  z-index: 0;
+  background-color: #FF7373;
+  position: relative;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px; 
+  transform: scale(0);
+}
+
+/* the pink boxes we will transition */
+.box5 {
+  width: 8px;
+  height: 8px;
+  margin: 2px;
+  z-index: 0;
+  background-color: #FF7373;
+  position: relative;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px; 
+  transform: scale(0);
+}
+
+/* the pink boxes we will transition */
+.box6 {
+  width: 8px;
+  height: 8px;
+  margin: 2px;
+  z-index: 0;
+  background-color: #FF7373;
+  position: relative;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px; 
+  transform: scale(0);
+}
+
+.box7 {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  z-index: 0;
+  background-color: #FF7373;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px; 
+}
+
+/*main layout*/
+.scroller{   
+    box-sizing: border-box;
+    width:5%;
+    float:right;
+    position:relative;
+}
+
+
+/*divs for visualizations*/
+.chart1Trigger{
+/*    border: 1px solid blue;*/
+      opacity:0.2;
+    height:123vh;
+    width:100%;
+/*    margin-top:1%;*/
+/*    left:35%;*/
+    position: relative;
+}
+
+.chart2Trigger{
+        
+    height:92vh;
+    width:100%;
+    opacity:0.2;
+/*    margin-top:1%;*/
+/*    left:35%;*/
+    position: relative;
+    
+}
+.chart3Trigger{
+/*    border: 1px solid blue;       */
+    height:92vh;
+    width:100%;
+    opacity:1;
+/*    margin-top:1%;*/
+/*    left:35%;*/
+    position: relative;
+    
+}
+
+.chart4Trigger{
+/*    border: 1px solid blue;       */
+    height:92vh;
+    width:100%;
+    opacity:1;
+/*    margin-top:1%;*/
+/*    left:35%;*/
+    position: relative;
+    
+}
+.chart5Trigger{
+/*    border: 1px solid blue;       */
+    height:92vh;
+    width:100%;
+    opacity:1;
+/*    margin-top:1%;*/
+/*    left:35%;*/
+    position: relative;
+    
+}
+
+.chart6Trigger{
+/*    border: 1px solid blue;       */
+    height:92vh;
+    width:100%;
+    opacity:1;
+/*    margin-top:1%;*/
+/*    left:35%;*/
+    position: relative;
+    
+}
+
+
